@@ -34,6 +34,7 @@ func main() {
 	fmt.Printf("%d,%s\n", hasReadLength, buf)
 
 	//操作文件指针
+	          //偏移量    //起始位置
 	f.Seek(0, 0)
 	hasReadLength, err = f.Read(buf)
 	fmt.Printf("%d,%s\n", hasReadLength, buf)
